@@ -1,0 +1,43 @@
+/* import fonts from google font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+/* import home & others css files */
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./home.css);
+@import url(./login.css);
+@import url(./product.css);
+@import url(./cart.css);
+
+/* all global css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: inline-flex;
+  align-items: center;
+}
+
+.discount-text {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 5px;
+  background: #ffeb84;
+}
+
+.dengar {
+  color: #f5404b;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.space {
+  height: 25px;
+  display: block;
+}

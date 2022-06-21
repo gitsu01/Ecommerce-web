@@ -1,0 +1,123 @@
+/* header section css start here */
+header {
+  box-shadow: 0 2px 6px -6px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #ffd5c3;
+  padding: 0 100px 0;
+}
+
+.top-head-div {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-head-div .top-head-first,
+.top-head-div .top-head-last {
+  display: flex;
+  gap: 10px;
+  width: 312px;
+  align-items: center;
+}
+
+.top-head-div .top-head-first .top-head-home {
+  font-size: 28px;
+}
+
+.top-head-div .top-head-first .top-head-seller,
+.about-demo-seller {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-head-div .top-head-first .top-head-seller .seller-t-1 {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 10px;
+}
+
+.top-head-div .top-head-first .top-head-seller .seller-t-2 {
+  color: #ed6a3c;
+  font-size: 18px;
+  line-height: 15px;
+  font-weight: 600;
+}
+
+.top-head-div .top-head-middle,
+.top-head-middle {
+  height: 40px;
+}
+
+.top-head-last ul.top-head-last-ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+}
+
+.top-head-last ul.top-head-last-ul li {
+  display: flex;
+  align-items: center;
+}
+
+.top-head-last ul.top-head-last-ul li:nth-child(1) {
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.top-head-last ul.top-head-last-ul li:nth-child(2) .top-last-bag {
+  font-size: 24px;
+}
+
+.top-head-last ul.top-head-last-ul li .login-rounded-button {
+  height: 40px;
+  padding: 5px 22px;
+  background: #ed613c;
+  border-radius: 20px;
+  margin: auto !important;
+  color: #f6f6f6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.top-head-last ul.top-head-last-ul li .login-rounded-button .lock {
+  margin-right: 5px;
+}
+
+.bottom-head-div {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bottom-head-div ul.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.bottom-head-div ul.nav-links li {
+  padding-bottom: 5px;
+}
+
+.bottom-head-div ul.nav-links li.active {
+  font-weight: 600;
+  border-bottom: 4px solid #ed613c;
+}
+
+/* header section css end here */
+
+/* Other Header CSS Strat here */
+#other-head {
+  border: none;
+  font-weight: 300;
+}
+
+#other-head .top-head-div .top-head-last {
+  width: auto;
+}
+
+/* Other Header CSS End here */
