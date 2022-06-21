@@ -681,9 +681,9 @@ main .login-container{
   font-family: "inter", sans-serif;
 }
 .cart-item-value{
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
-  margin-top: 7px;
+  margin-top: auto;
 }
 .cart-item-value span:nth-child(2){
   color: #b3b3b3;
@@ -712,6 +712,32 @@ main .login-container{
   bottom: 8px;
   right: 16px;
   color: red;
+}
+
+.cart-price-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.cart-price-button .cart-price{
+  font-size: 28px;
+  font-weight: 600;
+}
+.cart-price span{
+  font-weight: 200;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.cart-price-button .checkout-button{
+  width: 150px;
+  height: 45px;
+  background: #ED6A3C;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  color: #F4F4F4;
+  font-size: 16px;
 }
 
 
