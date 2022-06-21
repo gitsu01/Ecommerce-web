@@ -589,7 +589,7 @@ main .login-container{
 /* Login CSS end here */
 
 /* Seller Login css start here */
-.seller-login-main{
+/* .seller-login-main{
   height: 850px;
   background-color: #000;
 }
@@ -614,7 +614,7 @@ main .login-container{
 .seller-login-ban .view-more-butt{
   bottom: 25px;
   right: 25px;
-  /* height: 40px; */
+  /* height: 40px; 
   padding: 7px 22px;
   background: #ed613c;
   border-radius: 20px;
@@ -623,7 +623,7 @@ main .login-container{
   text-decoration: none;
   font-weight: 600;
   text-align: center;
-}
+} */
 
 /* {
   font-weight: 300;
@@ -637,3 +637,82 @@ main .login-container{
   font-weight: 600;
 } */
 /* Seller Login css end here */
+
+/* Cart page CSS start here */
+
+.cart-page-title span{
+  font-weight: 100;
+}
+
+.all-cart-items{
+  margin-top: 20px;
+  display: grid;
+  gap: 15px;
+}
+
+.cart-item{
+  display: flex;
+  border: 1px solid #FFD5C3;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+  padding: 7px;
+  height: 110px;
+}
+.cart-item > div{
+  flex-basis: 100px;
+}
+.cart-item > div:nth-child(2){
+  flex-basis: 100%;
+  padding: 0 0 0 10px;
+}
+.cart-item img{
+  height: 100%;
+  margin: auto 0;
+}
+.cart-item .cart-item-detail h3{
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "inter", sans-serif;
+}
+.cart-item .cart-item-detail .sell-by{
+  font-size: 14px;
+  line-height: 15px;
+  color: #ED6A3C;
+  font-family: "inter", sans-serif;
+}
+.cart-item-value{
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+.cart-item-value span:nth-child(2){
+  color: #b3b3b3;
+  text-decoration: line-through;
+}
+.cart-item .cart-item-extra{
+  justify-content: flex-end;
+}
+.how-many{
+  border: 1px solid #FFD5C3;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px;
+}
+.how-many span{
+  padding: 5px;
+}
+.how-many span:nth-child(2){
+  color: #ed613c;
+  font-weight: 600;
+}
+
+.cart-delete{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: red;
+}
+
+
+/* Cart page CSS end here */
